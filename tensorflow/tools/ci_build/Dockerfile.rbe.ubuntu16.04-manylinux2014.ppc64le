@@ -9,7 +9,7 @@
 #  --tag "ibmcom/tensorflow-ppc64le/devel-ubuntu16.04-manylinux2014" .
 # $ docker push ibmcom/tensorflow-ppc64le/devel-ubuntu16.04-manylinux2014
 
-FROM ubuntu:16.04
+FROM ubuntu:xenial-20210114
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y \
